@@ -48,6 +48,6 @@ class UserController extends Controller
     {
         $this->userService->delete($id);
 
-        return ApiResponse::success([], 'User deleted successfully.');
+        return ApiResponse::success('User deleted successfully.');
     }
 }
