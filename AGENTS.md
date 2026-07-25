@@ -23,6 +23,7 @@ This application is a Laravel application and its main Laravel ecosystems packag
 ## Skills Activation
 
 This project has domain-specific skills available in `**/skills/**`. You MUST activate the relevant skill whenever you work in that domain—don't wait until you're stuck.
+- For any API module creation, scaffolding, refactoring, or endpoint tasks in this project, ALWAYS activate the `laravel-api-module-generator` skill located at `.agents/skills/laravel-api-module-generator/SKILL.md`.
 
 ## Conventions
 
