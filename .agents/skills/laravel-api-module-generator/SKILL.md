@@ -149,9 +149,9 @@ use Modules\{ModuleName}\Repositories\{ModelName}Repository;
 class {ModelName}Service extends BaseService
 {
     public function __construct(
-        protected {ModelName}Repository $repository,
+        protected {ModelName}Repository ${modelName}Repository,
     ) {
-        parent::__construct($repository);
+        parent::__construct(${modelName}Repository);
     }
 
     public function create(array $data): Model

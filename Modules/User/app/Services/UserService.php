@@ -11,8 +11,10 @@ use Modules\User\Repositories\UserRepository;
 class UserService extends BaseService
 {
     public function __construct(
-        protected UserRepository $repository,
-    ) {}
+        protected UserRepository $userRepository,
+    ) {
+        parent::__construct($userRepository);
+    }
 
     public function create(array $data): Model
     {
